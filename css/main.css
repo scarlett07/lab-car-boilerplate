@@ -1,1 +1,38 @@
-/* Los estilos de tu proyecto */
+body{
+  padding-top: 50px;
+}
+div>hr{
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  color: blue;
+
+}
+body > div > nav{
+  background: white;
+}
+
+#primera{
+  background-image: url("../assets/images/taxi.jpg");
+}
+.logo{
+  padding: 1%;
+
+}
+.rojo{
+  background: red;
+}
+.jumbo{
+  margin-top: 10%;
+  border-radius: none;
+  background-color: #F7B617;
+  color: white;
+  padding: 2%;
+}
+#primera > div > h2{
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+#primera > div > div > hr:nth-child(1){
+  color: blue;
+}
