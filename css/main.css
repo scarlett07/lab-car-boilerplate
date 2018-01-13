@@ -1,20 +1,26 @@
 body{
   padding-top: 50px;
 }
-div>hr{
-  display: inline-block;
-  width: 100px;
-  height: 4px;
-  color: blue;
 
 }
-body > div > nav{
-  background: white;
+#white{
+  background-color: white;
 }
 
+#primera > div > div{
+  margin: 0 auto;
+}
 #primera{
   background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
+
+.margen{
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+
 .logo{
   padding: 1%;
 
@@ -29,10 +35,7 @@ body > div > nav{
   color: white;
   padding: 2%;
 }
-#primera > div > h2{
-  margin-bottom: 35px;
-  margin-top: 5px;
-}
+
 #primera > div > div > hr:nth-child(1){
   color: blue;
 }
