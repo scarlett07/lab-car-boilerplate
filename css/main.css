@@ -36,6 +36,17 @@ body{
   padding: 2%;
 }
 
-#primera > div > div > hr:nth-child(1){
-  color: blue;
+
+.contenedor-media{
+  background-color: #F7B617;
+  padding: 5% 5% 5% 0%;
+  color: white;
+}
+
+.borde{
+  border: 3px solid white;
+  border-left-style:none;
+}
+.blok{
+  display: block;
 }
