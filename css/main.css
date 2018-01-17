@@ -2,6 +2,10 @@ body{
   padding-top: 50px;
 }
 
+footer{
+  background-color: rgb(43, 41, 40);
+}
+
 }
 #white{
   background-color: white;
@@ -28,6 +32,7 @@ body > div > section.row.contenedor-media > div > div.media-body.hidden-xs.hidde
 
 }
 
+
 .al-title{
   padding: 4%;
 }
@@ -41,9 +46,11 @@ body > div > section.row.contenedor-media > div > div.media-body.hidden-xs.hidde
   padding: 1%;
 
 }
-.amarillo{
+
+.yellow{
   background: #F7B617;
-  border: none;
+  border: 1px solid white;
+  color: white;
 }
 .jumbo{
   margin-top: 8%;
